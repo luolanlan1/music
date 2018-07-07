@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+#nav_state{ height:10px; background:#f03; position:relative;}
+#nav_state img{ position:absolute; left:895px; top:-15px;}
+#img_m{ height:220px; margin-top:10px;}
+#img_z{ width:1000px; height:220px; margin:auto;}
+#music_tab{ height:500px; margin-top:20px;}
+#tab_1{ width:1000px; margin:auto; height:500px;  border:1px solid #d7d7d7; background:#fff; border-radius:10px; position:relative;}
+#tab_1 h3{ font-size:30px; margin-left:30px; margin-top:10px;}
+#tab_1 ul{ width:550px; height:50px; list-style:none; position:absolute; top:20px; left:270px;}
+#tab_1 ul li{ width:40px; float:left; border-right:3px solid #CCC; height:20px; margin-left:30px;}
+#tab_1 ul li:hover{ transform: rotate(36deg); transition:all 1s;}
+#tab_1 ul li:hover.d{ transform: rotate(-36deg); transition:all 1s;}
+.q{ width:1000px; height:4px; background:#f03; position:absolute; margin-top:10px;}
+#tab_1 ol{ list-style:none; width:900px; height:300px;top:100px; left:70px; position:absolute;}
+#tab_1 ol li{ width:150px; height:150px; float:left; margin-left:10px; margin-top:20px; border:1px solid #d7d7d7; padding-left:10px; padding-top:8px; overflow:hidden;}
+#tab_1 ul li:hover{ cursor:pointer;}
+#a1{width:450px; height:200px; border:1px solid #fff; margin:10px; z-index:222; float:left; overflow:hidden; position:absolute;}
+#a1:hover{ transform:scale(0.9); transition:transform 1s;}
+#a2{width:450px; height:200px; border:1px solid #000; margin:10px; z-index:222; float:left; overflow:hidden; position:absolute; left:660px;}
+#a2:hover{ transform:scale(0.9); transition:transform 1s;}
+.list1{ z-index:333;}
+.list2{ z-index:222;}
+.list3{ z-index:111;}
+#tab_1 ol li:hover img{ transform:scale(1.2); transition:transform 1s;}
+#tab_1 ol li:hover::before{ content:""; width:160px; height:160px; background:rgba(0,0,0,0.4);position:absolute; z-index:9999; margin-top:-10px; margin-left:-10px;}

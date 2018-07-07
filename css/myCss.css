@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+#container{ height:900px;}
+#cont_z{ width:1000px; margin:auto; height:800px; padding:10px; border:1px solid #d7d7d7}
+#left{ width:1000px; height:300px; border:1px solid #d8d8d8; position:relative;}
+#right{ width:1000px; height:450px; border:1px solid #d7d7d7; margin-top:20px;  background:url(../img/%E8%83%8C%E6%99%AF.jpg) no-repeat; background-size:1000px 550px;}
+.photo{ width:160px; height:160px; border-radius:50%;position:absolute; top:20px; left:20px; background:url(../img/myp.jpg) no-repeat ; background-size:160px 160px;}
+.photo:hover{ transform:rotate(360deg); transition:transform 1s ease;}
+.Name{ color:#333; font-size:39px; top:30px; left:220px; position:absolute;}
+#left button{ position:absolute; right:30px; width:100px; height:30px; border:1px solid #f03; background:#fff; color:#f03; border-radius:10px; top:20px;}
+#left ul{ width:700px; height:50px; border-top:1px solid #f03; position:absolute; top:140px; padding:40px; left:220px; overflow:hidden;}
+#left ul li{ float:left; width:100px; height:50px; margin-left:10px; border-bottom:1px solid #f03; text-align:center; line-height:50px; list-style:none;}
+
+#right_z{ width:900px; height:400px;  margin: 20px auto;}
+#right_z p{ font-size:25px; width:890px; height:50px; border-bottom:2px solid #f03;}
+#right_z span{ color:#333; font-size:12px; margin-left:10px;}
+.lot{ width:90px; height:50px; position:absolute; top:85px; right:5px;background:#F03; text-align:center; line-height:50px; color:#fff; border-radius:19px; cursor:pointer;}
+
+#left ul li:hover{ background:#f03; color:#fff; transition:all 1s;}
+
+*{ margin:0; padding:0;}
+body{ background:#EBEBEB;}
+#header{ height:60px; background: rgba(0,0,0,1); z-index:22; width:100%;}
+#header_h{ width:1000px; margin:auto;}
+#header_h  img{ float:left; margin-top:5px;}
+#header_h ul{ width:420px; float:right;list-style:none;}
+#header_h ul li{ width:100px; height:50px; text-align:center; line-height:60px; float: left;}
+#header_h ul li a{ color:#00; text-decoration:none; width:100px; height:60px; display:inline-block; color:#f03; font-weight:bold;}
+#header_h ul li a:hover{ background:#f03; color:#fff; width:100px; height:56px; border-top:4px solid #000;transition:all 1s;}
+
+#nav_state{ height:10px; background:#f03; position:relative;}
+#nav_state img{ position:absolute; left:1095px; top:-15px;}
+#footer{ height:50px ; background: #000; text-align:center; line-height:50px; color:#fff; font-size:14px; margin-top:20px;}
+
+
+
+ul, li {
+	list-style:none;
+}
+#demo2 a{ color:#0088CC; text-decoration:none;}
+#demo2 a:hover{ color:rgba(255,51,51,1);}
+h1, h2 {
+	padding-top: 20px;
+}
+.scroll-text {
+	width: 800px;
+	height: 19.5em;
+	overflow: hidden;
+	padding:3px;
+	margin:10px;
+}
+.scroll-text ul {
+	width: 800px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0;
+	
+}
+.scroll-text ul li {
+	height: 1.5em;
+}

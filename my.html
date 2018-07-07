@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My</title>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<link rel="stylesheet" href="css/myCss.css">
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<!--头部-->
+<div id="header">
+	<div id="header_h">
+    <img src="img/logo2.png" width="94" height="50">
+    <ul>
+    	<li><a href="index.html">首页</a></li>
+        <li><a href="musics.html">音乐馆</a></li>
+        <li><a href="state.html">动态</a></li>
+        <li><a href="my.html">我的</a></li>
+    </ul>
+    </div>
+</div>
+
+<div id="nav_state">
+<img src="img/ps素材/三角形1.png" width="20" height="20"> </div>
+<div id="container">
+	<div id="cont_z">
+    	<div id="left">
+        	<span class="photo"></span>
+            <span class="Name">丑人</span>
+            <button>编辑个人资料</button>
+           <p>
+           <a href="#" class="tc" style="color:#fff; position:absolute; top:90px; right:100px; width:100px; height:50px; background:#f03; line-height:50px; text-align:center; font-size:15px; border-radius:10px; text-decoration:none;">登录</a></p>
+            <ul>
+            	<li>动态</li>
+                <li>关注</li>
+                <li>留言板</li>
+            </ul>
+           
+        </div>
+        <div id="right">
+        	<div id="right_z">
+        		<p>听歌排行<span>累积听歌987首</span> <strong><span style="float:right; margin-top:20px;">最近一周|所有时间</span></strong></p>
+              <div class="container">
+  <div class="body-content">
+    <div id="demo2" class="scroll-text">
+      <ul>
+<li><a>1.天后<span>-陈势安</span></a></li>
+<li><a>2.空空如也<span>-陈势安</span></a></li>
+<li><a>3.遇到<span>-陈势安</span></a></li>
+<li><a>4.我们不一样<span>-陈势安</span></a></li>
+<li><a>5.再也没有<span>-陈势安</span></a></li>
+<li><a>6.好好<span>-陈势安</span></a></li>
+<li><a>7.舍得<span>-陈势安</span></a></li>
+<li><a>8.最后一页<span>-陈势安</span></a></li>
+<li><a>9.空空如也<span>-陈势安</span></a></li>
+<li><a>10.空空如也<span>-陈势安</span></a></li>
+<li><a>11.空空如也<span>-陈势安</span></a></li>
+<li><a>12.空空如也<span>-陈势安</span></a></li>
+<li><a>13.空空如也<span>-陈势安</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+    
+    
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.scrollbox.js"></script>
+<script>
+$(function () {
+  $('#demo2').scrollbox({
+    linear: true,
+    step: 1,
+    delay: 0,
+    speed: 100
+  });
+});
+</script>
+            </div>
+        </div>
+    </div>
+</div>
+	
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+<!--底部-->
+<div id="footer"><p>相关法律</a>&nbsp;|&nbsp;版权所有&nbsp;copy&copy;云桂信息学院计应1601 罗兰兰</p></div>
+
+
+
+<div align="center">
+
+	
+</div>
+
+<div id="gray"></div>
+
+<div class="popup" id="popup">
+
+	<div class="top_nav" id='top_nav'>
+		<div align="center">
+			<i></i>
+			<span>登录账号</span>
+			<a class="guanbi"></a>
+		</div>
+	</div>
+	
+	<div class="min">
+	
+		<div class="tc_login">
+		
+			<div class="left">
+				<h4 align="center">手机扫描，赞助一下</h4>
+				<div align="center"><img src="img/zfb_2yuan.jpg" width="150" height="150" /></div>
+				
+			</div>  
+		
+			<div class="right">
+				<form method="POST" name="form_login" target="_top">
+					<div align="center">
+						<a href="">短信快捷登录</a>
+						<i class="icon-mobile-phone"></i>
+						<input type="text" name="name" id="name" required placeholder="用户名" autocomplete="off" class="input_yh">
+						<input type="password" name="pass" id="pass" required placeholder="密码" autocomplete="off" class="input_mm">
+					</div>
+					<dd>
+						<div align="center"><a href="">遇到登录问题</a></div>
+					</dd>
+					<div align="center">
+						<input type="submit" class="button" title="Sign In" value="登录">
+					</div>
+				</form>   
+				<dd>
+					<div align="center"><a href="#" target="_blank">立即注册</a></div>
+				</dd>
+				<hr align="center" />
+				<div align="center">期待更多功能 </div>
+			</div>
+		
+		</div>
+	
+	</div>
+
+</div>
+
+  
+<script type="text/javascript">
+//窗口效果
+//点击登录class为tc 显示
+$(".tc").click(function(){
+	$("#gray").show();
+	$("#popup").show();//查找ID为popup的DIV show()显示#gray
+	tc_center();
+});
+//点击关闭按钮
+$("a.guanbi").click(function(){
+	$("#gray").hide();
+	$("#popup").hide();//查找ID为popup的DIV hide()隐藏
+})
+
+//窗口水平居中
+$(window).resize(function(){
+	tc_center();
+});
+
+function tc_center(){
+	var _top=($(window).height()-$(".popup").height())/2;
+	var _left=($(window).width()-$(".popup").width())/2;
+	
+	$(".popup").css({top:_top,left:_left});
+}	
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+
+	$(".top_nav").mousedown(function(e){ 
+		$(this).css("cursor","move");//改变鼠标指针的形状 
+		var offset = $(this).offset();//DIV在页面的位置 
+		var x = e.pageX - offset.left;//获得鼠标指针离DIV元素左边界的距离 
+		var y = e.pageY - offset.top;//获得鼠标指针离DIV元素上边界的距离 
+		$(document).bind("mousemove",function(ev){ //绑定鼠标的移动事件，因为光标在DIV元素外面也要有效果，所以要用doucment的事件，而不用DIV元素的事件 
+		
+			$(".popup").stop();//加上这个之后 
+			
+			var _x = ev.pageX - x;//获得X轴方向移动的值 
+			var _y = ev.pageY - y;//获得Y轴方向移动的值 
+		
+			$(".popup").animate({left:_x+"px",top:_y+"px"},10); 
+		}); 
+
+	}); 
+
+	$(document).mouseup(function() { 
+		$(".popup").css("cursor","default"); 
+		$(this).unbind("mousemove"); 
+	});
+}) 
+</script>
+
+
+
+
+
+
+</body>
+</html>

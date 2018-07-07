@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>State</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/cj.css">
+<link rel="stylesheet" href="css/StateCss.css">
+<script type="text/javascript" src="js/Lunbo.js" ></script>	
+	<script src="js/jquery.mmenu.min.all.js"></script>
+<script type="text/javascript">
+$(document).ready(function(e) {
+    $(".yinyue").click(function(){
+		$("#right_1").show();
+		$("#right_2").hide();
+		});
+	$(".yuwo").click(function(){
+
+		$("#right_2").show();
+		$("#right_1").hide();
+		});
+	$(".good").click(function(){
+		$(".jiayi").show(function(){
+	    $(".jiayi").css("transform","translate(10px,-70px)").css("transition","transform 0.5s")
+			});
+		$(".jiayi").delay("slow");
+		$(".jiayi").fadeOut();
+		$(".jiayi").css("transform","translate(0px,0px)").css("transition","transform 0.5s");
+		});
+		$(".pinglun").click(function(){
+			$(".in").html("<input type='type' class='in1' placeholder='评论'/>");
+			});
+		$("#fabiao,input").focus(function(){
+			$("#fa").show();
+			});
+		$("#fabiao,input").blur(function(){
+			$("#fa").hide();
+			});	
+		
+});
+</script>
+</head>
+
+<body>
+<!--头部-->
+<div id="header">
+	<div id="header_h">
+    <img src="img/logo2.png" width="94" height="50">
+    <ul>
+    	<li><a href="index.html">首页</a></li>
+        <li><a href="musics.html">音乐馆</a></li>
+        <li><a href="state.html">动态</a></li>
+        <li><a href="my.html">我的</a></li>
+    </ul>
+    </div>
+</div>
+
+<div id="nav_state">
+<img src="img/ps素材/三角形1.png" width="20" height="20"> </div>
+
+<!---->
+<div id="first">
+	<div id="first_1">
+    	<div id="first_left">
+        	<div id="left_1" class="yinyue">
+            <img src="img/ps素材/音符.jpg" width="30" height="30" ><p>音乐圈</p>
+            </div>
+            <div id="left_1" class="yuwo">
+            <img src="img/ps素材/爱心.jpg" width="40" height="40">
+<p>与我相关</p>
+            </div>
+            <div id="left_1">
+            <img src="img/发表.jpg" width="3000" height="2640">我要发表 </div>
+            <div id="left_1">
+            <img src="img/未标题-1.jpg" width="40" height="40">
+            <p>今日打卡</p>
+            </div>
+        </div>
+        <div id="first_right">
+        	<div id="right_1" class="content">
+            	<div id="fabiao">
+                	<input type="text" placeholder="我要发表"/>
+                    <div id="jia"><p>+</p>
+                    </div>
+                    <div id="fa">
+                        	<button>点击发表</button>
+                    </div>
+                </div>
+            	<h3>好友音乐</h3>
+                <div id="toux" class="bottom">
+                	<span class="toux"></span>
+                    <span class="fridensName">丑人分享单曲</span>
+                    <span class="time">昨天 23:17</span>
+                  	<p>有哪些让人少女心爆炸的动画漫画或电影电视剧</p>
+                <img src="img/state2.jpg" width="480" height="58" class="img1">
+                <span class="good"></span>
+                <span class="jiayi">+1</span>
+                <span class="pinglun"></span>
+                <span class="fenxiang"></span>
+                <p class="in"></p>
+                
+                </div>
+                
+           </div>
+           
+
+           
+           <div id="right_2" class="content">
+            	<h3>与我相关</h3>
+                <div id="xiangguan" class="bottom">
+                	<span class="toux"></span>
+                    <span class="fridensName">丑人开心赞了的你的分享</span>
+                     <span class="time">昨天 23:17</span>
+                     <p>有哪些让人少女心爆炸的动画漫画或电影电视剧</p>
+                <img src="img/state2.jpg" width="480" height="58" class="img1">
+                <input type="type" class="tp" placeholder="评论"/>
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+
+
+<h3 style="color:#f03; text-align:center;">最新MV</h3>
+
+
+ <div class="Box">
+    	<div class="content">
+    	
+    		
+   		  <div class="Box_con clearfix">
+    			<span class="btnl btn" id="btnl"></span>
+    			<span class="btnr btn" id="btnr"></span>
+    			
+    			<div class="conbox" id="BoxUl">
+	    			<ul>
+	    				<li class="cur">
+                        <img src="img/tuijian_1.jpg" width="1080" height="432"></li>
+	    				
+	    				<li class="cur">
+                         <img src="img/tuijian_2.jpg" width="1080" height="432"> </li>
+	    				
+	    				<li class="cur">
+                         <img src="img/tuijian_3.jpg" width="1080" height="432"> </li>
+	    			
+	    				<li class="cur">
+                         <img src="img/tuijian_4.jpg" width="1080" height="432"> </li>
+	    				
+	    				<li class="cur"> <img src="img/tuijian_5.jpg" width="1080" height="432"></li>
+						<li class="cur"> <img src="img/tuijian_6.jpg" width="1080" height="432"></li>
+
+    				</ul>
+   			  </div>
+    			
+
+    			
+   		  </div>
+    		
+    	</div>
+    </div>
+    <script type="text/javascript">
+    	LbMove('BoxUl','btnl','btnr','BoxSwitch',true,'left',true,305,1000,5000,4);
+    </script>
+
+
+
+
+
+<!--底部-->
+<div id="footer">
+	<p><p>相关法律</a>&nbsp;|&nbsp;版权所有&nbsp;copy&copy;云桂信息学院计应1601 罗兰兰</p></p>
+</div>
+</body>
+</html>

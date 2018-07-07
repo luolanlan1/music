@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ background:#EBEBEB;}
+#header{ height:60px; background:#000;z-index:22; width:100%;}
+#header_h{ width:1000px; margin:auto; background: rgba(0,0,0,0.4)}
+#header_h  img{ float:left; margin-top:5px;}
+#header_h ul{ width:420px; float:right;list-style:none;}
+#header_h ul li{ width:100px; height:50px; text-align:center; line-height:60px; float: left;}
+#header_h ul li a{ color:#00; text-decoration:none; width:100px; height:60px; display:inline-block; color:#f03; font-weight:bold;}
+#header_h ul li a:hover{ background:#f03; color:#fff; width:100px; height:56px; border-top:4px solid #000; transition:all 1s;}
+#nav_state{ height:10px; background:#f03; position:relative;}
+#nav_state img{ position:absolute; left:995px; top:-15px;}
+
+#first{ height:560px; margin-top:40px;}
+#first_1{ width:1000px; margin:auto;height:560px;}
+#first_left{ width:280px; height:400px; float:left; margin-right:8px;border-radius:7px; margin-top:20px; margin-left:5px; background: rgba(255,255,255,1);}
+#first_right{ width:680px; height:530px;float:left; margin-left:10px;margin-top:20px;border-radius:7px;  background:#fff;}
+#left_1{ width:270px; height:50px; border:1px solid #F69;margin:5px; color:#000; text-align:center; line-height:50px; background:rgba(255,255,255,0.5); cursor:pointer; margin-top:10px;}
+#left_1 img{ margin-top:8px; float:left; width:30px; height:30px; padding-left:20px;}
+#left_1:hover{ background:#f03; color:#fff; transition:all 2s;}
+
+
+
+#right_1{width:675px; /*height:530px; */margin:2px; padding:10px; display:block;}
+#first_right h3{ width:665px; height:50px; border-bottom:2px solid #f03; border-radius:2px; line-height:40px;}
+#1_bottom{ width:665px; height:200px; border-bottom:1px solid #d7d7d7; background:#000;}
+#toux{ width:600px; height:260px;border:1px solid #f03; margin-top:10px; margin-left:10px; position:relative;}
+.bottom{width:600px; height:260px;border:1px solid #f03; margin-top:10px; margin-left:10px; position:relative;}
+.toux{ width:80px; height:80px;border-radius:50%; position:absolute; left:10px; top:5px; background:url(../img/myPhoto.jpg) center; background-size:80px 80px;}
+.fridensName{ display:block; position:absolute; top:10px; left:100px;}
+.time{ position:absolute; top:50px; left:100px; color:#999;}
+#toux p{ position:absolute; top:95px; left:20px; font-size:14px; color:rgba(51,51,51,1);}
+.img1{ position: absolute; top:120px; left:20px;}
+.good{ position:absolute; right:200px; top:180px; width:50px; height:40px; background:url(../img/%E7%82%B9%E8%B5%9E2_1.png); background-size:50px 40px;}
+.good:hover{ background:url(../img/%E7%82%B9%E8%B5%9E2.png); background-size:50px 40px;}
+.pinglun{ background:url(../img/%E8%AF%84%E8%AE%BA1.png) no-repeat; width:40px; height:30px; background-size:40px 30px; top:185px; right:155px; position:absolute;}
+.pinglun:hover{ width:40px; height:30px; background:url(../img/%E8%AF%84%E8%AE%BA2.png) no-repeat; background-size:40px 30px;}
+.fenxiang{ width:40px; height:30px; background:url(../img/%E5%88%86%E4%BA%AB1.png); position:absolute; top:190px; right:110px;background-size:40px 30px; }
+.fenxiang:hover{ width:40px; height:30px; background: url(../img/%E5%88%86%E4%BA%AB2.png); position:absolute; top:190px; right:110px;background-size:40px 30px; }
+.jiayi{ color:#F03; position:absolute; bottom:10px; right:220px; display:none;}
+.in1{ width:480px; position:absolute; top:130px; left:20px; border:1px solid #d7d7d7; height:20px;}
+#fabiao{ width:600px;border:1px solid #F99; position:relative; height:150px;}
+#fabiao input{ width:350px; height:50px; border:none; margin-left:10px;}
+#jia{ width:80px; height:80px; border:1px solid #d7d7d7; position:absolute; right:10px; top:10px; background:#ccc; font-size:50px; text-align:center; line-height:80px; color:#fff; cursor:pointer;}
+#fa{ display:none; width:600px; height:50px; position:absolute; top:100px;}
+#fa button{ width:100px; height:35px; color:#fff; border-radius:10px; float:right; background:#f03; border:none; display:block; margin-top:5px;}
+
+
+
+#right_2{width:675px; height:390px; margin:2px; padding:10px; display:none;}
+#right_2 p{ position:absolute; top:95px; left:20px; font-size:14px; color:rgba(51,51,51,1);}
+#right_2 input{ width:480px; position:absolute; bottom:20px; left:20px; border:1px solid #d7d7d7; height:30px;}
+
+
+#right_3{ width:675px; height:390px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{ height:50px ; background: #000; text-align:center; line-height:50px; color:#fff; font-size:14px; margin-top:20px;}
+.show{ display:block; margin-top:20px;}

@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Music</title>
+<link rel="stylesheet" href="css/IndexCss.css">
+<link rel="stylesheet" href="css/musicCsscss.css">
+<script type="text/javascript" src="js/jquery.min.js">
+</script>
+<script type="text/javascript">
+$(document).ready(function(e) {
+    $("#h").click(function(){
+		$(".list1").show();
+		$(".list2").hide();
+		$(".list3").hide();
+		});
+	 $("#l").click(function(){
+		$(".list2").show();
+		$(".list1").hide();
+		$(".list3").hide();
+		});
+		$("#y").click(function(){
+		$(".list2").hide();
+		$(".list1").hide();
+		$(".list3").show();
+		});
+});
+</script>
+</head>
+
+<body>
+<!--头部-->
+<div id="header">
+	<div id="header_h">
+    <img src="img/logo2.png" width="94" height="50">
+    <ul>
+    	<li><a href="index.html">首页</a></li>
+        <li><a href="musics.html">音乐馆</a></li>
+        <li><a href="state.html">动态</a></li>
+        <li><a href="my.html">我的</a></li>
+    </ul>
+    </div>
+</div>
+
+<div id="nav_state">
+<img src="img/ps素材/三角形1.png" width="20" height="20"> </div>
+
+
+<div id="img_m">
+	 <div id="img_z">
+     <div id="a1">
+     </div>
+     <div id="a2"></div>
+ 		<img src="img/1.jpg" width="480" height="220">
+		<img src="img/2.jpg" width="480" height="220">
+	</div>
+</div>
+
+
+<div id="music_tab">
+	<div id="tab_1">
+    <h3>热门推荐</h3>
+    <ul>
+    	<li id="h">华语</li>
+        <li id="l">流行</li>
+        <li id="y" style="transform:none;">摇滚</li>
+        <li id="m" class="d">民谣</li>
+        <li id="d" class="d">电子</li>
+    </ul>
+    <span class="q"></span>
+    <ol class="list1">
+    	<li><img src="img/m1.jpg" width="140" height="140"></li>
+        <li><img src="img/m2.jpg" width="140" height="140"></li>
+        <li><img src="img/m3.jpg" width="140" height="140"></li>
+        <li><img src="img/m4.jpg" width="140" height="140"></li>
+        <li><img src="img/m1.jpg" width="140" height="140"></li>
+        <li><img src="img/m3.jpg" width="140" height="140"></li>
+        <li><img src="img/m6.jpg" width="140" height="140"></li>
+        <li><img src="img/m7.jpg" width="140" height="140"></li>
+        <li><img src="img/m8.jpg" width="140" height="140"></li>
+        <li><img src="img/m1.jpg" width="140" height="140"></li>
+      </ol>
+       <ol class="list2">
+    	<li><img src="img/M_1.jpg" width="140" height="140"></li>
+        <li><img src="img/M_2.jpg" width="140" height="140"></li>
+        <li><img src="img/M_3.jpg" width="140" height="140"></li>
+        <li><img src="img/M_4.jpg" width="140" height="140"></li>
+        <li><img src="img/M_5.jpg" width="140" height="140"></li>
+        <li><img src="img/M_6.jpg" width="140" height="140"></li>
+        <li><img src="img/M_7.jpg" width="140" height="140"></li>
+        <li><img src="img/M_8.jpg" width="140" height="140"></li>
+        <li><img src="img/M_1.jpg" width="140" height="140"></li>
+        <li><img src="img/M_1.jpg" width="140" height="140"></li>
+      </ol>
+        <ol class="list3">
+    	<li><img src="img/y1.jpg" width="140" height="140"></li>
+        <li><img src="img/y2.jpg" width="140" height="140"></li>
+        <li><img src="img/y3.jpg" width="140" height="140"></li>
+        <li><img src="img/y4.jpg" width="140" height="140"></li>
+        <li><img src="img/y1.jpg" width="140" height="140"></li>
+        <li><img src="img/y5.jpg" width="140" height="140"></li>
+        <li><img src="img/y6.jpg" width="140" height="140"></li>
+        <li><img src="img/y1.jpg" width="140" height="140"></li>
+        <li><img src="img/y8.jpg" width="140" height="140"></li>
+        <li><img src="img/y7.jpg" width="140" height="140"></li>
+      </ol>
+    
+    </div>
+</div>
+
+<!--底部-->
+<div id="footer">
+<p><p>相关法律</a>&nbsp;|&nbsp;版权所有&nbsp;copy&copy;云桂信息学院计应1601 罗兰兰</p></p>
+</div>
+</body>
+</html>
